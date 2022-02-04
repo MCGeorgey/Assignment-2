@@ -11,9 +11,6 @@ namespace Assignment_2
         static void Main(string[] args)
         {
         }
-        void getData()
-        {
-
-        }
+      
     }
 }
