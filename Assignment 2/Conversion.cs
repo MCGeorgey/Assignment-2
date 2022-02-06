@@ -29,11 +29,11 @@ namespace Assignment_2
         {
             return conversionValue + 273.15;
         }
-        public double ConvertkEvinToFahrenheit()
+        public double ConvertkelvinToFahrenheit()
         {
             return ((conversionValue - 273.15) * 1.8) + 32;
         }
-        public double ConvertkEvinToCelcius()
+        public double ConvertkelvinToCelcius()
         {
             return (conversionValue - 273.15);
         }
@@ -44,6 +44,10 @@ namespace Assignment_2
         public double ConvertFahrenheitToCelcius()
         {
             return (conversionValue - 32) / 1.8;
+        }
+        public void DisplayData(double value)
+        {
+            Console.WriteLine("Value after conversion is : {0}",value);
         }
     }
 }
